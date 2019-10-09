@@ -37,6 +37,7 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
+        ['label' => 'About', 'url' => ['/site/about']],
     ];
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
